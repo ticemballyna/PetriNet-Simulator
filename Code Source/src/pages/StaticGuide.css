@@ -1,0 +1,109 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/Neufile-Grotesk-Medium.woff') format('woff2'), 
+       
+ 
+}
+body{
+  background-color: #F5F5F5;
+  font-family: MyFont !important;
+}
+.header {
+  position: fixed; /* Fix the header position */
+  top: 0; /* Position the header at the top of the page */
+  width: 100%; /* Make the header full width */
+  z-index: 1000; /* Ensure the header is on top of other content */
+  /* Add any other necessary styles */
+}
+.body-container {
+  display: flex;
+  justify-content: center; /* Center the navbar-container horizontally */
+  align-items: center; /* Center the navbar-container vertically */
+  /* Add any other necessary styles */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.navbar1,.navbar2 {
+  background-color: #20B2AA;
+  height: 40px;
+  width : 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+    font-family: MyFont !important;
+    margin-left : 150px; 
+    margin-right : 150px;
+    margin-bottom: 20px;
+
+}
+
+
+.navbar3{
+  background-color: #20B2AA;
+  height: 40px;
+  width : 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+    margin-left : auto; 
+    margin-right : auto;
+    margin-top:330px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.box {
+  display: flex;
+  flex-direction: column; /* Display children elements in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+
+.groups {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 49px; 
+}
+
+.group {
+  height: 65px;
+  border-radius: 3xl;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 18px;
+}
+
+.video-container{
+  background-color: #0f0f0fe1;
+  height: 258px;
+    width : 500px;
+    margin-left : 50px; 
+    margin-right : 50px;
+    border-width: 15px;
+    border-color: #0f0f0fe1;
+}
+
+.wrapper{
+  margin-top:50px;
+  display: flex;
+    flex-direction: column;
+}
